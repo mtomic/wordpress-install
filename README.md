@@ -1,6 +1,6 @@
 wpinstall_osx
 =============
-Bash script that installs a brand new WordPress site on your Mac. The script will create a hosts entry for you and an Apache vhost.
+Bash script that installs a brand new WordPress site on your Mac. The script will create a hosts entry for you and an Apache vhost. DO NOT use this on production systems, this script will only work in your OS X dev environment.
 
 
 Usage
