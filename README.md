@@ -18,7 +18,7 @@ You will be prompted to input some parameters for your local WordPress site to w
 
 2. vhost file path: (i.e. /etc/apache2/users/mysite.conf)
 
-3. Server name? DO NOT include http:// (i.e. mysite.dev)
+3. Server name? DO NOT include http:// (a valid entry would be: mysite.dev)
 
 4. User apache runs under? (i.e. www or johnsmith)
 
