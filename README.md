@@ -27,8 +27,8 @@ You will be prompted to input some parameters for your local WordPress site to w
 
 Notes
 =============
-This script downloads the latest WordPress tarball from wordpress.org.  I think WordPress has a limit of 3-5 pull requests in a given timeframe so try to get the installation right the first time.  If you don't, you might have to modify the script and comment out the line that downloads the WordPress tarball.  This is a utility script that I use for myself and it works like a champ.  Feel free to fork and modify.
-
+* This script downloads the latest WordPress tarball from wordpress.org.  I think WordPress has a limit of 3-5 pull requests in a given timeframe so try to get the installation right the first time.  If you don't, you might have to modify the script and comment out the line that downloads the WordPress tarball.  This is a utility script that I use for myself and it works like a champ.  Feel free to fork and modify.
+* The script will append '127.0.0.1 servername' into your hosts file each time you run it.  If your first attempt fails for some reason, cleanup your hosts file before running it again.
 Prerequisites
 =============
 1. wget.  I don't think wget is installed on all OS X systems by default.  The best way to install it is to run:
