@@ -24,7 +24,7 @@ mkdir -p $WEBROOT
 cp -r wordpress/* $WEBROOT
 rm -rf wordpress
 
-#set folder permissions to logged in user
+#set folder permissions to apache user
 chown -R $APACHEUSER $WEBROOT
 
 #add local site to the hosts file
