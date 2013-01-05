@@ -8,7 +8,7 @@ Usage
 ```bash
 sudo ./wpinstall.sh
 ```
-
+You must run this as root.
 
 Parameters
 =============
