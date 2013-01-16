@@ -55,7 +55,7 @@ Notes
 
 Prerequisites
 =============
-1. wget.  I don't think wget is installed on all OS X systems by default.  You can check this by simply running
+* wget.  I don't think wget is installed on all OS X systems by default.  You can check this by simply running
 ```bash
 wget
 ```
@@ -64,7 +64,7 @@ If you don't have it, the best way to install it is to run:
 brew install wget
 ```
 
-2. If you got an error you probably don't have homebrew installed. Try installing homebrew by running:
+* If you got an error you probably don't have homebrew installed. Try installing homebrew by running:
 ```ruby
 ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 ```
@@ -74,7 +74,7 @@ Then retry
 brew install wget
 ```
 
-3. Finally, you will need MySQL. If you don't already have it, install it with homebrew:
+* Finally, you will need MySQL. If you don't already have it, install it with homebrew:
 ```bash
 brew install mysql
 ```
