@@ -75,6 +75,7 @@ brew install wget
 ```
 
 * Finally, you will need MySQL. If you don't already have it, install it with homebrew:
+
 ```bash
 brew install mysql
 ```
