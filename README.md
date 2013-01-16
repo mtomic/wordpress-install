@@ -1,12 +1,26 @@
-wpinstall_osx
+wordpress-install
 =============
-Bash script that installs a brand new WordPress site on your Mac. The script will create a hosts entry for you and an Apache vhost. DO NOT use this on production systems, this script will only work in your OS X dev environment.
+PHP script that installs a brand new WordPress site on your Mac. The script will: 
+
+1. Donwload the latest version of WordPress from wordpress.org
+
+2. Set up the site directory structure in a directory you specify 
+
+3. Create a hosts entry in your hosts file
+
+4. Create an Apache vhost for your local site. 
+
+5. Create a MySQL database
+
+6. Install WordPress on your local machine!
+
+DO NOT use this on production systems, this script will only work on your dev machine. It has only been tested on OS X Mountain Lion, but it will probably work on other versions of OS X and also Linux.
 
 
 Usage
 =============
-```bash
-sudo ./wpinstall.sh
+```php
+sudo ./wpinstall.php
 ```
 You must run this as root.
 
@@ -20,10 +34,19 @@ You will be prompted to input some parameters for your local WordPress site to w
 
 3. Server name? DO NOT include http:// (a valid entry would be: mysite.dev)
 
-4. User apache runs under? (i.e. www or johnsmith)
+4. User apache runs under? (i.e. www or yourusername)
 
-5. Navigate to http://mysite.dev or whatever server name you specified in Step 3 and complete the wordpress installation
+5. MySQL Database name?
 
+6. MySQL host [127.0.0.1]
+
+7. MySQL user [root]
+
+8. MySQL password
+
+9. Navigate to http://mysite.dev or whatever server name you specified in Step 3 and you should see your new WordPress site ready to go.
+
+You can also log into your WordPress admin using the default admin/admin credentials.  I suggest you change this as soon as you install the site.
 
 Notes
 =============
