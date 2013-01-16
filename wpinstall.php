@@ -4,7 +4,7 @@
  * Main index page
  * @package default
  * @author Marko Tomic <marko@markomedia.com.au>
- * @copyright Copyright 2012 Marko Tomic
+ * @copyright Copyright 2013 Marko Tomic
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  * @version 1.0.0
  * This file is part of wordpress-install.
