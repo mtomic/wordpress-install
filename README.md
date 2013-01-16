@@ -46,7 +46,7 @@ You will be prompted to input some parameters for your local WordPress site to w
 
 9. Navigate to http://mysite.dev or whatever server name you specified in Step 3 and you should see your new WordPress site ready to go.
 
-You can also log into your WordPress admin using the default admin/admin credentials.  I suggest you change this as soon as you install the site.
+You can also log into your WordPress admin using the default admin/admin credentials.  I suggest you change this as soon as you install the site. You could also modify this script to allow for different database prefix and site title options, but I generally leave those to default values.
 
 Notes
 =============
@@ -74,4 +74,8 @@ Then retry
 brew install wget
 ```
 
-And you should be good to go
+Finally, you will need MySQL. If you don't already have it, install it with homebrew:
+```bash
+brew install mysql
+```
+And you should be ready to install WordPress.
